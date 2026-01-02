@@ -1,0 +1,25 @@
+---
+import GridCol from "../components/GridCol.astro";
+import star from "../assets/images/illustration-five-stars.webp";
+---
+
+<section class="mx-3.5 my-7">
+    <div class="grid grid-cols-1 grid-rows-8 gap-4">
+        <GridCol
+            class="row-span-5 bg-purple-500 rounded-sm p-10 flex flex-col items-center justify-center"
+            text='Social Media <span class="text-yellow-500 text-shadow-lg/30">10x</span> Faster with AI'
+            textclass="text-white text-4xl text-center "
+            src={star.src}
+            srcclass="w-32 pt-5"
+            subtext="Over 4,000 5-star reviews"
+            subtextclass="text-white text-center"
+        />
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+</section>
