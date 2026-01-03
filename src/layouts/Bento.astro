@@ -1,25 +1,78 @@
 ---
 import GridCol from "../components/GridCol.astro";
 import star from "../assets/images/illustration-five-stars.webp";
+import social from "../assets/images/illustration-multiple-platforms.webp";
+import schedule from "../assets/images/illustration-consistent-schedule.webp";
+import post from "../assets/images/illustration-schedule-posts.webp";
+import followers from "../assets/images/illustration-grow-followers.webp";
+import audience from "../assets/images/illustration-audience-growth.webp";
+import createpost from "../assets/images/illustration-create-post.webp";
+import ai from "../assets/images/illustration-ai-content.webp";
 ---
 
 <section class="mx-3.5 my-7">
-    <div class="grid grid-cols-1 grid-rows-8 gap-4">
+    <div class="grid grid-cols-1 auto-rows-[10px] gap-4">
         <GridCol
-            class="row-span-5 bg-purple-500 rounded-sm p-10 flex flex-col items-center justify-center"
+            class="row-span-11 bg-purple-500 p-10 flex flex-col items-center justify-center shadow-2xs"
             text='Social Media <span class="text-yellow-500 text-shadow-lg/30">10x</span> Faster with AI'
-            textclass="text-white text-4xl text-center "
+            textclass="text-white text-4xl text-center"
             src={star.src}
             srcclass="w-32 pt-5"
             subtext="Over 4,000 5-star reviews"
             subtextclass="text-white text-center"
         />
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>7</div>
-        <div>8</div>
+        <GridCol
+            class="row-span-7 bg-white p-8 flex flex-col-reverse items-start justify-center shadow-2xs gap-5"
+            text="Manage multiple accounts and platforms"
+            textclass="font-dm-sans font-semibold text-black text-xl w-full text-wrap"
+            src={social.src}
+            srcclass="w-full h-auto rounded-full shadow-md"
+        />
+        <GridCol
+            class="row-span-9 bg-yellow-500 pt-4 pl-4 flex flex-col items-start justify-center shadow-2xs gap-3 overflow-hidden"
+            text="Maintain a consistent posting schedules"
+            textclass="font-dm-sans font-semibold text-black text-xl w-full mt-6"
+            src={schedule.src}
+            srcclass="w-48 h-auto"
+        />
+        <GridCol
+            class="row-span-18 bg-purple-300 py-10 px-4 flex flex-col items-center justify-center shadow-2xs gap-5"
+            text="Schedule to social media."
+            textclass="font-dm-sans font-bold text-black text-xl w-full text-center"
+            src={post.src}
+            srcclass="w-full h-auto"
+            subtext="Optimize post timing to publish  content at the perfect time for your audience."
+            subtextclass="text-black text-center text-lg font-dm-sans font-semibold"
+        />
+        <GridCol
+            class="row-span-14 bg-purple-500 px-15 flex flex-col-reverse items-center justify-center shadow-2xs gap-7"
+            text="Grow followers with non-stop content."
+            textclass="font-dm-sans font-semibold text-white text-2xl w-full text-center"
+            src={followers.src}
+            srcclass="w-full h-auto -mt-5"
+        />
+        <GridCol
+            class="row-span-8 bg-white px-6 flex flex-col items-start justify-center shadow-2xs gap-2"
+            text=">56%"
+            textclass="font-dm-sans font-semibold text-black text-5xl w-full text-wrap order-1"
+            src={audience.src}
+            srcclass="w-40 h-auto  order-3"
+            subtext="faster audience growth"
+            subtextclass="font-dm-sans font-semibold text-black text-center order-2"
+        />
+        <GridCol
+            class="row-span-8 bg-yellow-100 p-10 flex flex-col items-start justify-center shadow-2xs gap-5"
+            text="Create and schedule content <span class='text-purple-500 italic'>quicker.</span>"
+            textclass="font-dm-sans font-semibold text-black text-2xl w-full text-wrap mt-6"
+            src={createpost.src}
+            srcclass="w-40 h-auto"
+        />
+        <GridCol
+            class="row-span-13 bg-yellow-500 px-5 flex flex-col items-start justify-center shadow-2xs gap-5"
+            text="Write your content using AI."
+            textclass="font-dm-sans font-semibold text-black text-3xl w-full text-wrap mt-6"
+            src={ai.src}
+            srcclass="w-50 h-auto"
+        />
     </div>
 </section>

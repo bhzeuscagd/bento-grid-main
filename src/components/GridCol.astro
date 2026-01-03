@@ -10,8 +10,8 @@ const {
 } = Astro.props;
 ---
 
-<div class={`w-full h-full font-dm-sans-500 ${className}`}>
-    <h2 set:html={text} class={`text-balance ${textclass}`} />
+<div class={`w-full h-full font-dm-sans-500 rounded-lg ${className}`}>
+    <h2 set:html={text} class={`text-balance  ${textclass}`} />
     <img src={src} class={srcclass} />
     <p set:html={subtext} class={subtextclass} />
 </div>
