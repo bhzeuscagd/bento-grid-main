@@ -1,46 +1,81 @@
-# Astro Starter Kit: Basics
+# Frontend Mentor - Bento grid solution
 
-```sh
-pnpm create astro@latest -- --template basics
+This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the interface depending on their device's screen size
+
+### Screenshot
+
+![](./screenshot.jpg)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [Astro](https://astro.build/) - Web Framework
+- [Tailwind CSS v4](https://tailwindcss.com/) - Utility-first CSS framework
+- [DM Sans](https://fontsource.org/fonts/dm-sans) - Font
+
+### What I learned
+
+Creating a Bento Grid layout offered a great opportunity to practice advanced CSS Grid techniques. I focused on creating a reusable `GridCol` component in Astro to handle the various grid cells efficiently. This approach kept the main layout file clean while allowing for specific styling customization for each block via props.
+
+Here is a snippet of how I structured the main grid using Tailwind CSS classes to handle responsiveness:
+
+```astro
+<div class="grid grid-cols-1 auto-rows-[10px] gap-4 min-w-0 lg:grid-cols-4 lg:auto-rows-[140px]">
+    <!-- Grid items go here -->
+</div>
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+I also explored the new configuration and features of Tailwind CSS v4, ensuring the project is up-to-date with the latest tooling.
 
-## 🚀 Project Structure
+### Continued development
 
-Inside of your Astro project, you'll see the following folders and files:
+In future projects, I aim to further explore Astro's islands architecture and deeper integrations with other UI frameworks if needed. I also want to continue refining my skills with complex grid layouts and animations to make the user experience even smoother.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+### Useful resources
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+- [Astro Documentation](https://docs.astro.build/) - The official documentation is always the best place to start.
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs) - Essential for looking up utility classes and configuration.
+- [CSS Grid Guide](https://css-tricks.com/snippets/css/complete-guide-grid/) - A comprehensive guide to CSS Grid that I reference often.
 
-## 🧞 Commands
+## Author
 
-All commands are run from the root of the project, from a terminal:
+- Website - [Your Website](https://your-site.com)
+- Frontend Mentor - [@bhzeuscagd](https://www.frontendmentor.io/profile/bhzeuscagd)
+- GitHub - [bhzeuscagd](https://github.com/bhzeuscagd)
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+## Acknowledgments
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Thanks to Frontend Mentor for providing this challenge. It was a fun layout to implement!
