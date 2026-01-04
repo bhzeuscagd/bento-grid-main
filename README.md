@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [GitHub](https://github.com/bhzeuscagd/bento-grid-main)
 - Live Site URL: [Live Site](https://bento-grid-main-phi.vercel.app)
 
 ## My process
