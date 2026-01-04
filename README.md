@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://bento-grid-main-phi.vercel.app)
 
 ## My process
 
@@ -72,7 +72,7 @@ In future projects, I aim to further explore Astro's islands architecture and de
 
 ## Author
 
-- Website - [Your Website](https://your-site.com)
+- Website - [Portfolio](https://portfolio-cagd.vercel.app/)
 - Frontend Mentor - [@bhzeuscagd](https://www.frontendmentor.io/profile/bhzeuscagd)
 - GitHub - [bhzeuscagd](https://github.com/bhzeuscagd)
 
